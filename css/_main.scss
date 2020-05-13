@@ -1,0 +1,22 @@
+//Main
+
+.main__content {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+
+    * {
+        padding: 1rem;
+        width: 100%;
+    }
+}
+
+.main__title {
+    padding-top: 5rem;
+}
+
+@media (max-width: 500px) {
+    .main__content {
+        width: 100%;
+    }
+}
